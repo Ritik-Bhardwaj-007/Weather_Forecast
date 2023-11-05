@@ -1,4 +1,8 @@
+body{
+  background-image: url('https://cdn2.vectorstock.com/i/1000x1000/07/81/seamless-weather-forecast-background-vector-2000781.jpg');
+}
 .App {
+  margin-top: 2%;
   text-align: center;
 }
 
@@ -27,7 +31,11 @@
 .App-link {
   color: #61dafb;
 }
-
+.title{
+  font-size: 500%;
+  color:rgba(179, 245, 235, 0.908);
+  margin-bottom: 1%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +43,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+.card{
+  padding: 30px;
+  margin: auto;
+  margin-top: 5%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  width: 30%;
+  background-color: #c8ebf6;
+}
+.input-field{
+  border: 1px solid;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  font-size: 25px;
+  color: rgb(10, 10, 10);
+  background-color: #e2efec;
+}
+.btn{
+  border: 0px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 20px 5px;
+  font-size: 100%;
+  font-weight: 800;
+  color: bisque;
+  background-color: rgb(60, 81, 99);
+  cursor: pointer;
 }
